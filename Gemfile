@@ -12,12 +12,19 @@ gem "sinatra-activerecord"
 # https://github.com/ruby/rake
 gem "rake"
 
+gem 'faker','~>1.6','>=1.6.6'
+
 # Provides functionality to interact with a SQLite3 database
 # https://github.com/sparklemotion/sqlite3-ruby
 gem "sqlite3", "~> 1.4"
+# # https://github.com/faker-ruby/faker
+# gem "faker"
 
 # Require all files in a folder
 # https://github.com/jarmo/require_all
 gem "require_all"
 
 gem "pry"
+# A sample Gemfile
+source "https://rubygems.org"
+
